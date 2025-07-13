@@ -32,6 +32,12 @@ let newGameCounter=gameCounter++
 // console.log(gameCounter)
 // console.log(newGameCounter)
 
-console.log(null>0);
-console.log(null==0);
-console.log(null>=0);
+// console.log(null>0);
+// console.log(null==0);
+// console.log(null>=0);
+
+
+// let str="Rahul"
+
+//  
+// console.log(reverStr)
