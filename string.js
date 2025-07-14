@@ -23,5 +23,8 @@ const myName=new String("    hema yadav        ")
 // console.log(URL.replace("Rahul",))
 
 
-const gameName="HI i, am .RAhul_Rao. okk"
-console.log(gameName.split(" "))
+// const gameName="HI i, am .RAhul_Rao. okk"
+// console.log(gameName.split(" "))
+
+const strBold="hi i am Rahul yadav"
+console.log(strBold.bold())  
