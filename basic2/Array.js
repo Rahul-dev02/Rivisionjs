@@ -28,6 +28,16 @@ const MyArr1=['ram' ,'shyam' , 'dhyam' ,10,20,30,40,50,60]
 //  console.log("C",newArr2)
 //  console.log(MyArr1)
 
-const num=[0,1,2,3,4,5]
-console.log(num.slice(1,4))
-console.log(num.slice(2,4))
+// const num=[0,1,2,3,4,5]
+// console.log(num.slice(1,4))
+// console.log(num.slice(2,4))
+
+
+const num=[12,3,45,56,78,90]
+
+const newNum=num.slice(2,5)
+// console.log(newNum)
+
+const againNum=num.toSpliced(1,0,100,200)
+console.log(againNum)
+console.log(num)
