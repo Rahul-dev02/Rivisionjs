@@ -39,7 +39,6 @@ let val1
 
 
 
-
  const price=100;
 
  price<=80 ?console.log("price less than 80"):console.log("price greter than 80")
