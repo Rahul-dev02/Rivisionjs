@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;   
+  display: flex;
+  justify-content: center;   
+  gap: 20px;                 
+  padding: 15px;             
+}
+
+nav a {
+  color: white;           
+  text-decoration: none;     
+  padding: 10px 20px;   
+  border: 2px solid white;   
+  border-radius: 8px;        
+  transition: 0.3s ease;     
+}
+
+nav a:hover {
+  background-color: white;   
+  color: black;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height:88vh;
+}
+
+.button{
+   width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid black
+}
+#grey {
+  background-color: gray;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
