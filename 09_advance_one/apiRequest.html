@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .card {
+      width: 300px;
+      height: 300px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    </style>
+</head>
+<body>
+     <div class="card">
+        
+     </div>
+</body>
+ <!-- <script>
+
+        const requestUrl='https://api.github.com/users/hiteshchoudhary'
+        const xhr= new XMLHttpRequest()
+        xhr.open('GET',requestUrl)
+        xhr.onreadystatechange=function(){
+
+            console.log(xhr.readyState)
+            if(xhr.readyState===4){
+
+                const data=JSON.parse(this.responseText)
+               console.log(data.followers)
+               console.log(data.avatar_url)
+               console.log(data.name)
+               
+               const card=  document.querySelector(".card")
+
+               const h1=document.createElement('h1')
+               const p=document.createElement('p')
+               const img=document.createElement('img')
+               
+               img.src=data.avatar_url
+               h1.textContent=data.name
+               p.textContent=`followers - ${data.followers}`
+
+               card.appendChild(img)
+               card.appendChild(h1)
+               card.appendChild(p)
+               
+            }
+        }
+        xhr.send()
+
+    
+      </script> -->
+
+
+      <script>
+        const requesturl='https://api.github.com/users/hiteshchoudhary'
+
+        const xhr=new XMLHttpRequest
+        xhr.open('GET',requesturl)
+
+        console.log(xhr.readyState)
+        xhr.onreadystatechange=function(){
+           
+            if(xhr.readyState===4){
+               
+                const data=JSON.parse(this.responseText)
+                console.log(data.name)
+            }
+        }
+        xhr.send()
+       
+      </script>
+</html>
