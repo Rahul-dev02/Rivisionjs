@@ -117,11 +117,11 @@
 
    fetch('https://api.github.com/users/hiteshchoudhary')
    .then((response)=>{
-      return response.json()
+        return response.json()
    })
    .then((data)=>{
       console.log(data)
    })
    .catch((err)=>{
-     console.log("ERROR :",err)
+       console.log(err,"error")
    })
